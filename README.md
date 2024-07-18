@@ -216,12 +216,3 @@ To use a CDN or serve the built in CSS and JS from another URL, copy the ```/css
 
 The Core Admin Razor Class library will then serve the static assets from this URL root rather than from the built in versions.
 
-#### Troubleshooting
-
-If you see a 401 error when accessing /coreadmin it means you are running in a non-development environment and you have not set a role up. See "Role based security" above.
-
-LGPL licensed. Depends on the snazzy [NonFactors.Grid.Mvc6](https://github.com/NonFactors/AspNetCore.Grid) and Bootstrap, both of which are MIT licensed.
-
-### Authors
-
-Ed Andersen ([@edandersen](https://twitter.com/edandersen))
